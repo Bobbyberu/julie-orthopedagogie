@@ -1,9 +1,11 @@
 .titre-site {
     h1 {
         font-size: 25px;
+        font-family: Syne-Bold;
     }
 
     h2 {
         font-size: 17px;
+        font-family: Syne;
     }
 }

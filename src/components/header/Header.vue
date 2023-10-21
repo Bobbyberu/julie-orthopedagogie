@@ -11,7 +11,7 @@ import NavigationMenu from './navigation-menu/NavigationMenu.vue';
                 <!-- titre du site -->
                 <div class="row justify-content-start">
                     <h1 class="col" id="juliesol">Julie Sol</h1>
-                    <h2 class="col" id="orthopedagogue">/ ORTHOPEDAGOGUE</h2>
+                    <h2 class="col" id="orthopedagogue">/ ORTHOPÉDAGOGUE</h2>
                 </div>
             </div>
             <div class="col">

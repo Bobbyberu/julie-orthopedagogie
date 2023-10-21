@@ -5,4 +5,16 @@ nav {
         text-decoration: none;
         color: inherit;
     }
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        display: inline-block;
+    }
+}
+
+.router-link-header {
+    padding: 10px;
 }

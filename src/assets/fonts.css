@@ -1,0 +1,10 @@
+/* Syne fonts */
+@font-face {
+    font-family: Syne;
+    src: url('@/assets/fonts/Syne-Regular.ttf');
+}
+
+@font-face {
+    font-family: Syne-Bold;
+    src: url('@/assets/fonts/Syne-Bold.ttf');
+}
