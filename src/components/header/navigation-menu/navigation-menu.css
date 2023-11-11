@@ -1,4 +1,4 @@
-nav {
+nav.header {
     text-align: right;
 
     a {
@@ -12,6 +12,22 @@ nav {
 
     li {
         display: inline-block;
+        font-family: Avenir-LT-35;
+        color: var(--grey);
+        padding-top: 10px;
+        font-size: 14px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .nav-border {
+        border-top: 4px solid transparent;
+        padding-top: 13px;
+    }
+
+    .nav-border:hover {
+        border-top: 4px solid var(--light-grey-border);
+        color: var(--light-grey);
     }
 }
 

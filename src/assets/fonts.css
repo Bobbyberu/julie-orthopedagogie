@@ -8,3 +8,8 @@
     font-family: Syne-Bold;
     src: url('@/assets/fonts/Syne-Bold.ttf');
 }
+
+@font-face {
+    font-family: Avenir-LT-35;
+    src: url('@/assets/fonts/Avenir-LT-35-Light.ttf');
+}

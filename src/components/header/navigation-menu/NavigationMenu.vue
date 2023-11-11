@@ -6,12 +6,22 @@ import { RouterLink } from 'vue-router';
 <style src="./navigation-menu.css"/>
 
 <template>
-    <nav>
+    <nav class="header">
         <ul>
-        <li><RouterLink class="router-link-header" to="/">ACCUEIL</RouterLink></li>
-        <li><RouterLink class="router-link-header" to="/about">À PROPOS</RouterLink></li>
-        <li><RouterLink class="router-link-header" to="/materiel">MATÉRIEL</RouterLink></li>
-        <li><RouterLink class="router-link-header" to="/blog">BLOGUE</RouterLink></li>
-    </ul>
+            <li>
+                <div class="nav-border">
+                    <RouterLink class="router-link-header" to="/">ACCUEIL</RouterLink>
+                </div>
+            </li>
+            <li>
+                <RouterLink class="router-link-header" to="/about">À PROPOS</RouterLink>
+            </li>
+            <li>
+                <RouterLink class="router-link-header" to="/materiel">MATÉRIEL</RouterLink>
+            </li>
+            <li>
+                <RouterLink class="router-link-header" to="/blog">BLOGUE</RouterLink>
+            </li>
+        </ul>
     </nav>
 </template>
