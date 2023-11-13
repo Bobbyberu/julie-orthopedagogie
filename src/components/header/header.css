@@ -1,11 +1,26 @@
 .titre-site {
-    h1 {
-        font-size: 25px;
-        font-family: Syne-Bold;
+    padding-top: 15px;
+
+    #carre-gris {
+        height: 16px;
+        width: 16px;
+        border: 8px solid #bfbfbf;
     }
 
-    h2 {
+    h1#juliesol {
+        font-size: 25px;
+        font-family: Syne-Bold;
+        margin-right: 30px;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+
+    h2#orthopedagogue {
         font-size: 17px;
         font-family: Syne;
+    }
+
+    .texte-titre {
+        display: inline-block;
     }
 }

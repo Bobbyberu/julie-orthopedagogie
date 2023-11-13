@@ -7,12 +7,11 @@ import NavigationMenu from './navigation-menu/NavigationMenu.vue';
 <template>
     <header class="container">
         <div class="row justify-content-between">
-            <div class="col titre-site">
+            <div class="col-6 titre-site">
                 <!-- titre du site -->
-                <div class="row justify-content-start">
-                    <h1 class="col" id="juliesol">Julie Sol</h1>
-                    <h2 class="col" id="orthopedagogue">/ ORTHOPÉDAGOGUE</h2>
-                </div>
+                <div class="texte-titre" id="carre-gris"></div>
+                <h1 class="texte-titre" id="juliesol">Julie Sol</h1>
+                <h2 class="texte-titre" id="orthopedagogue">/&nbsp;&nbsp; ORTHOPÉDAGOGUE</h2>
             </div>
             <div class="col">
                 <navigation-menu />

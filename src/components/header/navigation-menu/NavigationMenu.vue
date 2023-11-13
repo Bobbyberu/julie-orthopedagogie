@@ -14,13 +14,19 @@ import { RouterLink } from 'vue-router';
                 </div>
             </li>
             <li>
-                <RouterLink class="router-link-header" to="/about">À PROPOS</RouterLink>
+                <div class="nav-border">
+                    <RouterLink class="router-link-header" to="/about">À PROPOS</RouterLink>
+                </div>
             </li>
             <li>
-                <RouterLink class="router-link-header" to="/materiel">MATÉRIEL</RouterLink>
+                <div class="nav-border">
+                    <RouterLink class="router-link-header" to="/materiel">MATÉRIEL</RouterLink>
+                </div>
             </li>
             <li>
-                <RouterLink class="router-link-header" to="/blog">BLOGUE</RouterLink>
+                <div class="nav-border">
+                    <RouterLink class="router-link-header" to="/blog">BLOGUE</RouterLink>
+                </div>
             </li>
         </ul>
     </nav>
