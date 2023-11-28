@@ -24,3 +24,17 @@
         display: inline-block;
     }
 }
+
+header {
+    position: fixed;
+    z-index: 10;
+    background: white;
+    width: 100%;
+    max-width: 100% !important;
+    height: 110px;
+
+    .row {
+        padding-left: 50px;
+        padding-right: 30px;
+    }
+}

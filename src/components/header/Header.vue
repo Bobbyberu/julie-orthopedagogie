@@ -5,8 +5,9 @@ import NavigationMenu from './navigation-menu/NavigationMenu.vue';
 <style src="./header.css"/>
 
 <template>
+    <!-- TODO pas responsive -->
     <header class="container">
-        <div class="row justify-content-between">
+        <div class="row">
             <div class="col-6 titre-site">
                 <!-- titre du site -->
                 <div class="texte-titre" id="carre-gris"></div>

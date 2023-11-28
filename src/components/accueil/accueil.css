@@ -1,0 +1,52 @@
+.img-container {
+    position: relative;
+}
+
+#cubes-jeu-accueil {
+    width: 100%;
+}
+
+#description-background {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: rgba(255, 255, 255, 0.4);
+    height: 100%;
+    width: 45%;
+}
+
+#description-contenu {
+    position: relative;
+    text-align: center;
+    top: 250px;
+
+    h1 {
+        color: rgba(0, 0, 0, 1);
+        font-family: Syne-Bold;
+        font-size: 36px;
+        letter-spacing: 1.8px;
+        /*TODO variabiliser*/
+        color: #404040;
+
+        margin-bottom: 35px;
+    }
+
+    h2 {
+        color: #474747;
+        font-family: Syne;
+        font-size: 47px;
+    }
+}
+
+#ptite-barre {
+    width: 71px;
+    border-top: 3px solid #6b6b6b;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#montreal-description {
+    font-size: 14px;
+    font-family: Questrial;
+    color: #404040;
+}
