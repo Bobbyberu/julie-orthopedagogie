@@ -1,0 +1,59 @@
+#contact-container {
+    height: 463px;
+    background-color: #d4d0c8;
+    min-width: 340px;
+}
+
+section#contact {
+    width: 321px;
+    margin: 103px 0px 22px calc((100% - 327px) * 0.5);
+
+    h2 {
+        font-family: Syne-Bold;
+        font-size: 30px;
+        color: var(--grey);
+
+        margin-left: 3px;
+        margin-bottom: 22px;
+    }
+
+    #pas-ortho {
+        width: 320px;
+
+        font-family: Questrial;
+        font-size: 12px;
+    }
+
+    #email {
+        a {
+            text-decoration: none;
+            color: var(--grey);
+            font-family: Questrial;
+        }
+
+        a:hover {
+            color: var(--light-grey);
+        }
+    }
+
+    #reseaux-sociaux {
+        .icon {
+            margin-right: 7px;
+            transition: 0.6s;
+            cursor: pointer;
+        }
+
+        .icon:hover {
+            transition: 0.6s;
+        }
+
+        #linkedin:hover {
+            color: #0a66c2;
+        }
+
+        #instagram:hover {
+            color: #ca33b3;
+        }
+    }
+
+}

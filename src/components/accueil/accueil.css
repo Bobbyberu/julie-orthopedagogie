@@ -4,6 +4,8 @@
 
 #cubes-jeu-accueil {
     width: 100%;
+    height: 700px;
+    object-fit: cover;
 }
 
 #description-background {
@@ -25,8 +27,7 @@
         font-family: Syne-Bold;
         font-size: 36px;
         letter-spacing: 1.8px;
-        /*TODO variabiliser*/
-        color: #404040;
+        color: var(--grey);
 
         margin-bottom: 35px;
     }
@@ -48,5 +49,5 @@
 #montreal-description {
     font-size: 14px;
     font-family: Questrial;
-    color: #404040;
+    color: var(--grey);
 }

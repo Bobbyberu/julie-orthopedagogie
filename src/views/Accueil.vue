@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import Header from '../components/header/Header.vue'
+import Contact from '../components/contact/Contact.vue'
 </script>
 
 <style src="../components/accueil/accueil.css"></style>
@@ -12,11 +13,12 @@ import Header from '../components/header/Header.vue'
             <div id="description-background">
                 <div id="description-contenu">
                     <h1>Julie Sol</h1>
-                    <div id="ptite-barre"/>
+                    <div id="ptite-barre" />
                     <h2>Orthopédagogue</h2>
                     <p id="montreal-description">Montréal</p>
                 </div>
             </div>
         </div>
+        <Contact />
     </main>
 </template>
