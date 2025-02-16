@@ -1,11 +1,25 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden
+}
+
 .img-container {
     position: relative;
 }
 
 #cubes-jeu-accueil {
     width: 100%;
-    height: 700px;
+    height: 100%;
     object-fit: cover;
+
+    @media screen and (max-width: 2135px) {
+        width: 2135px;
+    }
+
+    @media screen and (max-width: 1000px) {
+        width: 1550px;
+    }
 }
 
 #description-background {
@@ -15,12 +29,17 @@
     background: rgba(255, 255, 255, 0.4);
     height: 100%;
     width: 45%;
+
+    @media screen and (max-width: 1000px) {
+        width: 100%;
+    }
 }
 
 #description-contenu {
     position: relative;
     text-align: center;
-    top: 250px;
+    top: 25%;
+    bottom: 25%;
 
     h1 {
         color: rgba(0, 0, 0, 1);
@@ -36,6 +55,10 @@
         color: #474747;
         font-family: Syne;
         font-size: 47px;
+
+        @media screen and (max-width: 400px) {
+            font-size: 30px;
+        }
     }
 }
 
@@ -50,4 +73,32 @@
     font-size: 14px;
     font-family: Questrial;
     color: var(--grey);
+}
+
+#in-progress {
+    margin-top: 100px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+#reseaux-sociaux a {
+    color: inherit;
+
+    .icon {
+        margin-right: 7px;
+        transition: 0.6s;
+        cursor: pointer;
+    }
+
+    .icon:hover {
+        transition: 0.6s;
+    }
+
+    #linkedin:hover {
+        color: #0a66c2;
+    }
+
+    #instagram:hover {
+        color: #ca33b3;
+    }
 }
