@@ -9,6 +9,7 @@
                     <p id="pas-ortho">* Je n'offre pas de service d'orthopédagogie à mon compte pour le moment.</p>
                     <p id="email"><a href="mailto:orthopedagogie.julie@gmail.com">orthopedagogie.julie@gmail.com</a></p>
 
+                  <!-- TODO put in header-->
                     <div id="reseaux-sociaux">
                         <i id="linkedin" class="fab fa-linkedin fa-xl icon"></i>
                         <i id="instagram" class="fa-brands fa-instagram fa-xl icon"></i>
