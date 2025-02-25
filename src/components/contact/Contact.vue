@@ -1,22 +1,44 @@
 <style  src="./contact.css"/>
 
 <template>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-4" id="contact-container">
-                <section id="contact">
-                    <h2>Contact</h2>
-                    <p id="pas-ortho">* Je n'offre pas de service d'orthopédagogie à mon compte pour le moment.</p>
-                    <p id="email"><a href="mailto:orthopedagogie.julie@gmail.com">orthopedagogie.julie@gmail.com</a></p>
-
-                  <!-- TODO put in header-->
-                    <div id="reseaux-sociaux">
-                        <i id="linkedin" class="fab fa-linkedin fa-xl icon"></i>
-                        <i id="instagram" class="fa-brands fa-instagram fa-xl icon"></i>
-                    </div>
-                </section>
-            </div>
-            <div class="col-8"></div>
+    <section id="contact">
+      <!-- same font as about section -->
+      <h2>Me contacter</h2>
+      <div id="contact-details">
+        <div class="contact-item">
+          <div class="icon-container">
+            <MailIcon height="50" width="50"/>
+          </div>
+          <div class="info-container">
+            <p class="email"><a href="mailto:orthopedagogie.julie@gmail.com">orthopedagogie.julie@gmail.com</a></p>
+          </div>
         </div>
-    </div>
+
+        <div class="contact-item">
+          <div class="icon-container">
+            <MapIcon height="50" width="50"/>
+          </div>
+          <div class="info-container">
+            <p>
+              835 Avenue Turnbull<br />
+              G1R 2X4, Québec
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <Map />
+
+    <!-- TODO put in header-->
+      <div id="reseaux-sociaux">
+          <i id="linkedin" class="fab fa-linkedin fa-xl icon"></i>
+          <i id="instagram" class="fa-brands fa-instagram fa-xl icon"></i>
+      </div>
+    </section>
 </template>
+
+<script setup lang="ts">
+import MailIcon from '@/components/icons/MailIcon.vue'
+import MapIcon from '@/components/icons/MapIcon.vue'
+import Map from '@/components/contact/map/Map.vue'
+</script>
