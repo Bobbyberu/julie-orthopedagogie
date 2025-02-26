@@ -9,7 +9,7 @@ import { Loader } from '@googlemaps/js-api-loader'
 import { onMounted } from 'vue'
 
 const loader = new Loader({
-  apiKey: "AIzaSyAu6GFy3aq9hgucKlU_syWbObj_GnfEAGU",
+  apiKey: "AIzaSyBnDh-uY7i3zkrW6g5d0YTvxpJjVxRr7Sg",
   version: "weekly"
 });
 
@@ -28,7 +28,7 @@ onMounted(async () => {
 
   map = await loader.importLibrary('maps').then(({Map}) => {
     const mapDiv = document.getElementById('maps-container') as HTMLElement;
-    const map = new Map(mapDiv, { center: position, zoom: 17, disableDefaultUI: true, mapId: '117ba3245eb98b2' });
+    const map = new Map(mapDiv, { center: position, zoom: 17, disableDefaultUI: true, mapId: '92de6d49945fd2c2' });
     new AdvancedMarkerElement({
       map: map,
       position: position,
