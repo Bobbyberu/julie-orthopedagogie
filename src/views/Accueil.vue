@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import Header from '../components/header/Header.vue'
 import Contact from '../components/contact/Contact.vue'
 import About from '@/components/about/About.vue'
+import MainHeader from '@/components/header/MainHeader.vue'
 </script>
 
 <style src="../components/accueil/accueil.css"></style>
@@ -9,7 +9,7 @@ import About from '@/components/about/About.vue'
 <template>
     <main>
       <!-- unfix header-->
-        <Header />
+        <MainHeader />
         <div class="img-container">
           <!-- TODO responsive -->
             <img class="full-width-img" src="/src/assets/img/accueil_cubes.jpg" />

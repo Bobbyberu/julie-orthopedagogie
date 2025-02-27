@@ -1,0 +1,60 @@
+header {
+    height: 120px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .header-item {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    #title {
+        #carre-gris {
+            height: 16px;
+            width: 16px;
+            border: 8px solid #bfbfbf;
+        }
+
+        h1#juliesol {
+            font-size: 25px;
+            font-family: Syne-Bold;
+            margin-right: 30px;
+            margin-top: 5px;
+            margin-left: 5px;
+        }
+
+        h2#orthopedagogue {
+            font-size: 17px;
+            font-family: Syne;
+        }
+
+        .texte-titre {
+            display: inline-block;
+        }
+    }
+
+    #socials {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        .icon {
+            margin-right: 7px;
+            transition: 0.6s;
+            cursor: pointer;
+        }
+
+        .icon:hover {
+            transition: 0.3s;
+        }
+
+        #linkedin:hover {
+            color: #0a66c2;
+        }
+
+        #instagram:hover {
+            color: #ca33b3;
+        }
+    }
+}

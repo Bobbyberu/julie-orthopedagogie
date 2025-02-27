@@ -28,12 +28,6 @@
       </div>
 
       <Map />
-
-    <!-- TODO put in header-->
-      <div id="reseaux-sociaux">
-          <i id="linkedin" class="fab fa-linkedin fa-xl icon"></i>
-          <i id="instagram" class="fa-brands fa-instagram fa-xl icon"></i>
-      </div>
     </section>
 </template>
 
