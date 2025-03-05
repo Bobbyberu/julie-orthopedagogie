@@ -8,6 +8,7 @@
 import { Loader } from '@googlemaps/js-api-loader'
 import { onMounted } from 'vue'
 
+// TODO create service
 const loader = new Loader({
   apiKey: "AIzaSyBnDh-uY7i3zkrW6g5d0YTvxpJjVxRr7Sg",
   version: "weekly"

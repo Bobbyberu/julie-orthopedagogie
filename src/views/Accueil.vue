@@ -7,22 +7,21 @@ import MainHeader from '@/components/header/MainHeader.vue'
 <style src="../components/accueil/accueil.css"></style>
 
 <template>
-    <main>
-      <!-- unfix header-->
-        <MainHeader />
-        <div class="img-container">
-          <!-- TODO responsive -->
-            <img class="full-width-img" src="/src/assets/img/accueil_cubes.jpg" />
-            <div id="description-background">
-                <div id="description-contenu">
-                    <h1>Julie Sol</h1>
-                    <div id="ptite-barre" />
-                    <h2>Orthopédagogue</h2>
-                    <p id="montreal-description">Montréal</p>
-                </div>
-            </div>
+  <main>
+    <!-- unfix header-->
+    <MainHeader />
+    <div class="img-container">
+      <img class="full-width-img" src="/src/assets/img/accueil_cubes.jpg" />
+      <div id="description-background">
+        <div id="description-contenu">
+          <h1>Julie Sol</h1>
+          <div id="ptite-barre" />
+          <h2>Orthopédagogue</h2>
+          <p id="quebec-description">Québec</p>
         </div>
-        <About />
-        <Contact />
-    </main>
+      </div>
+    </div>
+    <About />
+    <Contact />
+  </main>
 </template>

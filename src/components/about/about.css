@@ -1,12 +1,11 @@
-#about-container {
-    text-align: center;
-
+section#about {
     #about-text-container {
         p {
-            line-height: 1.8rem;
+            line-height: 36px;
             font-size: 18px;
             margin-right: 15%;
             margin-left: 15%;
+            font-family: quicksand;
 
             @media screen and (max-width: 600px) {
                 margin-right: 10%;
@@ -16,11 +15,6 @@
         }
         margin-bottom: 40px;
     }
-}
-
-#profile-title {
-    margin-top: 90px;
-    margin-bottom: 65px;
 }
 
 #globe-about {

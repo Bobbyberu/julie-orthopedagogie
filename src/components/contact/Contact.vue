@@ -1,22 +1,25 @@
-<style  src="./contact.css"/>
+<style src="./contact.css" />
 
 <template>
-    <section id="contact">
+  <section id="contact">
+    <div class="section-container">
       <!-- same font as about section -->
-      <h2>Me contacter</h2>
+      <h2 class="section-title">Me contacter</h2>
       <div id="contact-details">
         <div class="contact-item">
           <div class="icon-container">
-            <MailIcon height="50" width="50"/>
+            <MailIcon height="50" width="50" />
           </div>
           <div class="info-container">
-            <p class="email"><a href="mailto:orthopedagogie.julie@gmail.com">orthopedagogie.julie@gmail.com</a></p>
+            <p class="email">
+              <a href="mailto:orthopedagogie.julie@gmail.com">orthopedagogie.julie@gmail.com</a>
+            </p>
           </div>
         </div>
 
         <div class="contact-item">
           <div class="icon-container">
-            <MapIcon height="50" width="50"/>
+            <MapIcon height="50" width="50" />
           </div>
           <div class="info-container">
             <p>
@@ -28,7 +31,8 @@
       </div>
 
       <Map />
-    </section>
+    </div>
+  </section>
 </template>
 
 <script setup lang="ts">

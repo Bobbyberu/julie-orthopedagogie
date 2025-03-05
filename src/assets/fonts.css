@@ -1,20 +1,14 @@
-/* Syne fonts */
-@font-face {
-    font-family: Syne;
-    src: url('@/assets/fonts/syne/Syne-Regular.ttf');
-}
-
-@font-face {
-    font-family: Syne-Bold;
-    src: url('@/assets/fonts/syne/Syne-Bold.ttf');
-}
-
 @font-face {
     font-family: Avenir-LT-35;
     src: url('@/assets/fonts/Avenir-LT-35-Light.ttf');
 }
 
 @font-face {
-    font-family: Questrial;
-    src: url('@/assets/fonts/Questrial-Regular.ttf');
+    font-family: WorkSans;
+    src: url('@/assets/fonts/WorkSans-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: quicksand;
+    src: url('@/assets/fonts/Quicksand-VariableFont_wght.ttf');
 }

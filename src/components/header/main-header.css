@@ -4,10 +4,17 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-right: 50px;
+    margin-left: 50px;
 
-    .header-item {
-        margin-right: 50px;
-        margin-left: 50px;
+    @media screen and (max-width:450px) {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    @media screen and (max-width:380px) {
+        margin-right: 10px;
+        margin-left: 10px;
     }
 
     #title {
@@ -19,15 +26,23 @@ header {
 
         h1#juliesol {
             font-size: 25px;
-            font-family: Syne-Bold;
-            margin-right: 30px;
+            font-weight: 550;
+            margin-right: 25px;
             margin-top: 5px;
             margin-left: 5px;
         }
 
         h2#orthopedagogue {
             font-size: 17px;
-            font-family: Syne;
+            font-weight: 50;
+
+            #separator {
+                font-weight: 100;
+            }
+
+            @media screen and (max-width:610px) {
+                display: none;
+            }
         }
 
         .texte-titre {
@@ -45,16 +60,20 @@ header {
             cursor: pointer;
         }
 
-        .icon:hover {
-            transition: 0.3s;
-        }
+        a {
+            color: black;
 
-        #linkedin:hover {
-            color: #0a66c2;
-        }
+            .icon:hover {
+                transition: 0.3s;
+            }
 
-        #instagram:hover {
-            color: #ca33b3;
+            #pinterest:hover {
+                color: #e60023;
+            }
+
+            #instagram:hover {
+                color: #ca33b3;
+            }
         }
     }
 }

@@ -15,6 +15,7 @@
     background: rgba(255, 255, 255, 0.4);
     height: 100%;
     width: 45%;
+    backdrop-filter: blur(5px);
     
     @media screen and (max-width: 950px) {
         width: 75%;
@@ -32,9 +33,8 @@
 
     h1 {
         color: rgba(0, 0, 0, 1);
-        font-family: Syne-Bold;
+        font-weight: 300;
         font-size: 36px;
-        letter-spacing: 1.8px;
         color: var(--grey);
 
         margin-bottom: 35px;
@@ -42,8 +42,8 @@
 
     h2 {
         color: #474747;
-        font-family: Syne;
         font-size: 47px;
+        font-weight: 300;
 
         @media screen and (max-width: 400px) {
             font-size: 37px;
@@ -58,8 +58,22 @@
     margin-bottom: 10px;
 }
 
-#montreal-description {
+#quebec-description {
     font-size: 14px;
-    font-family: Questrial;
+    font-weight: 400;
     color: var(--grey);
+    margin-top: 5px;
+}
+
+section {
+    .section-container {
+        text-align: center;
+
+        h2.section-title {
+            margin-top: 90px;
+            margin-bottom: 65px;
+            font-weight: 600;
+            font-size: 35px;
+        }
+    }
 }

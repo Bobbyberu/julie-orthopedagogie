@@ -2,8 +2,8 @@
 
 <template>
   <section id="about">
-    <div id="about-container">
-      <h1 id="profile-title">Mon profil</h1>
+    <div class="section-container">
+      <h2 class="section-title">Mon profil</h2>
 
       <div id="about-text-container">
         <p>
