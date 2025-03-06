@@ -6,4 +6,15 @@
   margin: 0 auto;
   font-weight: normal;
   font-family: WorkSans, sans-serif;
+
+  p {
+    font-family: quicksand, sans-serif;
+  }
+
+  .page-description {
+    font-size: 20px;
+    text-align: center;
+    width: 60%;
+    margin: 50px auto 70px;
+  }
 }

@@ -1,0 +1,54 @@
+.banner-background {
+    background-image: url("/src/assets/img/accueil_cubes.jpg");
+    height: 325px;
+    background-size: cover;
+    background-position: center;
+
+    .backdrop-filter {
+        backdrop-filter: blur(30px);
+        height: 100%;
+        display: flex;
+        justify-content: center;
+
+        .banner-title-content {
+            position: relative;
+            right: 200px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            gap: 20px;
+
+            height: 100%;
+            width: fit-content;
+
+
+            h1 {
+                font-size: 49px;
+                font-weight: 600;
+            }
+
+            .banner-separator {
+                width: 76px;
+                border-top: solid var(--grey) 3px;
+            }
+        }
+    }
+}
+
+#resources {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    #resources-items-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        row-gap: 30px;
+        column-gap: 50px;
+
+        margin-bottom: 15px;
+    }
+}

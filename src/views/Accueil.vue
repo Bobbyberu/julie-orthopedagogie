@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import Contact from '../components/contact/Contact.vue'
-import About from '@/components/about/About.vue'
+import Contact from '@/components/accueil/contact/Contact.vue'
+import About from '@/components/accueil/about/About.vue'
 import MainHeader from '@/components/header/MainHeader.vue'
 </script>
 
@@ -8,7 +8,6 @@ import MainHeader from '@/components/header/MainHeader.vue'
 
 <template>
   <main>
-    <!-- unfix header-->
     <MainHeader />
     <div class="img-container">
       <img class="full-width-img" src="/src/assets/img/accueil_cubes.jpg" />

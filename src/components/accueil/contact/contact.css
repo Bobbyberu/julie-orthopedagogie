@@ -7,7 +7,6 @@ section#contact {
         margin-right: auto;
         margin-left: auto;
         margin-bottom: 100px;
-        font-family: quicksand;
 
         @media screen and (max-width: 800px) {
             width: 400px;
@@ -58,14 +57,6 @@ section#contact {
         p {
             position: absolute;
         }
-    }
-
-    .contact-map {
-        -webkit-filter: grayscale(100%);
-        -moz-filter: grayscale(100%);
-        -ms-filter: grayscale(100%);
-        -o-filter: grayscale(100%);
-        filter: grayscale(100%);
     }
 }
 
