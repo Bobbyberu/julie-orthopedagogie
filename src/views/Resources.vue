@@ -35,4 +35,10 @@
 import MainHeader from '@/components/header/MainHeader.vue'
 import BannerTitle from '@/components/banner-title/BannerTitle.vue'
 import ResourceItem from '@/components/resources/item/ResourceItem.vue'
+import { authenticateImplicitWithAdc } from '@/services/gcpAuthenticator.service'
+import { onMounted } from 'vue'
+
+onMounted(async () => {
+  await authenticateImplicitWithAdc();
+})
 </script>
