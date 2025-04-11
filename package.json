@@ -14,7 +14,6 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "@google-cloud/storage": "^7.15.2",
     "@googlemaps/js-api-loader": "^1.16.8",
     "vue": "^3.3.4",
     "vue-router": "^4.2.4"
